@@ -1,5 +1,6 @@
 package com.meanminionexample.myfirstapptutorial;
 
+//Alt+Return to import missing classes
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ import android.widget.EditText;
 
 public class MyActivity extends ActionBarActivity {
 
-    public fianl static String EXTRA_MESSAGE = "com.meanminionexample.myfirstapptutorial.MESSAGE";
+    public final static String EXTRA_MESSAGE = "com.meanminionexample.myfirstapptutorial.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
